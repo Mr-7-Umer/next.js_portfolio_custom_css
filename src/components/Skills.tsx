@@ -8,7 +8,7 @@ const Skills = () => {
         <div data-aos="fade-up" className="skills-text">
           <h2 className="skills-title">Technologies I Work On</h2>
           <p className="skills-description">
-            I'm passionate about using the latest technologies to build modern,
+            I&apos;m passionate about using the latest technologies to build modern,
             scalable applications. Here are the technologies I work with.
           </p>
         </div>
@@ -29,11 +29,11 @@ const Skills = () => {
           </div>
           <div className="skills-list-column">
             <ul>
-            <li data-aos="zoom-in-up" className="tech-item html">
+              <li data-aos="zoom-in-up" className="tech-item html">
                 Html
               </li>
               <li data-aos="zoom-in-up" className="tech-item css">
-               CSS
+                CSS
               </li>
               <li data-aos="zoom-in-up" className="tech-item tailwind">
                 Tailwind

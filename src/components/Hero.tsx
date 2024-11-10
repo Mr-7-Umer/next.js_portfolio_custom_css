@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
         <div className="hero-placeholder"></div>
         <div className="hero-text">
           <div className="name-stack">
-            <p data-aos="zoom-in-up">I'm</p>
+            <p data-aos="zoom-in-up">I&apos;m</p> {/* Escaped apostrophe */}
             <p data-aos="zoom-in-up">Muhammad</p>
             <p data-aos="zoom-in-up">Umer</p>
           </div>
