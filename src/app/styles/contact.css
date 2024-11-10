@@ -1,0 +1,94 @@
+/* styles/contact.css */
+
+/* Container for the Contact section */
+.contact-container {
+  padding-top: 8rem; /* Equivalent to pt-32 */
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* Grid layout for the contact section */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem; /* Equivalent to gap-10 */
+}
+
+@media (min-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr 1fr; /* 2 columns for larger screens */
+  }
+}
+
+/* Left section styling */
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; /* Equivalent to space-y-8 */
+}
+
+/* Right section styling */
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; /* Equivalent to space-y-8 */
+}
+
+/* Heading for "Get in Touch" */
+.contact-heading {
+  font-size: 3.75rem; /* Equivalent to text-6xl */
+}
+
+/* Description text below the heading */
+.contact-description {
+  font-size: 1.125rem; /* Equivalent to text-[18px] */
+  color: #4b5563; /* Equivalent to text-gray-600 */
+  padding-top: 0.5rem; /* Equivalent to pt-2 */
+}
+
+/* Style for contact items like email and phone */
+.contact-item {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  font-size: 1.125rem; /* Set size for the icon text */
+}
+
+/* Form input and textarea styles */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem; /* Equivalent to gap-1 */
+}
+
+.form-input,
+.form-textarea {
+  background-color: transparent;
+  border: 2px solid #2563eb; /* Border color: blue-600 */
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.form-input {
+  height: 40px; /* Equivalent to h-[40px] */
+}
+
+.form-textarea {
+  resize: vertical; /* Allow vertical resizing only */
+}
+
+/* Submit button styling */
+.submit-button {
+  background-color: #2563eb; /* Background color: blue-600 */
+  padding: 0.5rem 1.5rem; /* Equivalent to p-2 px-6 */
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #1d4ed8; /* Darker blue on hover */
+}

@@ -1,0 +1,15 @@
+/* styles/heading.css */
+
+/* Heading container styling */
+.heading-container {
+  text-align: center; /* Equivalent to text-center */
+  font-size: 2.25rem; /* Equivalent to text-4xl */
+  padding-bottom: 2rem; /* Equivalent to pb-8 */
+}
+
+/* Title styling with underline */
+.heading-title {
+  display: inline-block;
+  padding-bottom: 0.5rem; /* Equivalent to pb-2 */
+  border-bottom: 4px solid #000; /* Border color equivalent to border-b-4 */
+}

@@ -1,0 +1,72 @@
+/* Navbar Styles */
+.navbar-container {
+  padding-top: 32px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  
+}
+
+.navbar-links {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  color: #38bdf8;
+}
+
+/* Mobile menu */
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.navbar-links.show {
+  display: block;
+  position: absolute;
+  top: 80px;
+  right: 10px;
+  background-color: #111;
+  width: 200px;
+  padding: 20px;
+}
+
+.navbar-links.show li {
+  padding: 10px;
+}
+
+.navbar-links.show li a {
+  font-size: 22px;
+}
+
+/* Hamburger menu for small devices */
+@media screen and (max-width: 768px) {
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}

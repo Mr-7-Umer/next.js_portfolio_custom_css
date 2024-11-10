@@ -1,0 +1,106 @@
+/* styles/skills.css */
+
+/* Container for the Skills section */
+.skills-container {
+  padding-top: 8rem; /* Equivalent to pt-32 */
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Grid layout for the skills section */
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: center;
+  justify-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Styling for the text area */
+.skills-text {
+  max-width: 600px;
+}
+
+/* Title for the section */
+.skills-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #b2adad;
+}
+
+/* Description text */
+.skills-description {
+  font-size: 1.1rem;
+  color: #747070;
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+/* List of skills */
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(250px, 1fr)
+  ); /* Responsive grid */
+  gap: 1.5rem;
+}
+
+/* Each skill column */
+.skills-list-column ul {
+  padding: 0;
+  list-style: none;
+}
+
+/* Individual skill items */
+.tech-item {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.tech-item:hover {
+  transform: scale(1.1);
+}
+
+/* Styling for specific tech items */
+.typescript {
+  color: #007acc;
+}
+.nextjs {
+  color: #ffffff;
+}
+.python {
+  color: #ffc341;
+}
+.tailwind {
+  color: #38bdf8;
+}
+.html {
+  color: #e24720;
+}
+.nodejs {
+  color: #68a063;
+}
+.css { 
+    color: rgb(192, 133, 255);
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .skills-grid {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .skills-title {
+    font-size: 3.5rem;
+  }
+
+  .skills-description {
+    font-size: 1.2rem;
+  }
+}

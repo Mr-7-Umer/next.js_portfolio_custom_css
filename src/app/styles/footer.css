@@ -1,0 +1,12 @@
+/* styles/footer.css */
+
+/* Footer container styling */
+.footer-container {
+    margin-top: 5rem; /* Equivalent to mt-20 */
+    padding: 1rem 0; /* Equivalent to py-3 */
+    text-align: center;
+    background-color: #2563eb; /* Equivalent to bg-blue-500 */
+    color: white;
+    font-size: 1rem;
+  }
+  

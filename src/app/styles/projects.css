@@ -1,0 +1,34 @@
+/* styles/projects.css */
+
+/* Container for Projects section */
+.projects-container {
+  padding-top: 8rem; /* Equivalent to pt-32 */
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Styling for the project grid */
+.projects-grid {
+  display: grid;
+  gap: 2.5rem; /* Equivalent to gap-10 */
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(280px, 1fr)
+  ); /* Responsive grid */
+  justify-items: center;
+}
+
+/* Adjusts the gap for larger screens */
+@media (min-width: 1280px) {
+  .projects-grid {
+    gap: 0;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr); /* Two columns for medium screens */
+  }
+}

@@ -1,0 +1,36 @@
+/* styles/about.css */
+.about-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 8rem; /* This is the pt-32 equivalent */
+  padding-left: 1rem; /* Added padding for better spacing */
+  padding-right: 1rem; /* Added padding for better spacing */
+}
+
+.about-title {
+  font-size: 2.25rem; /* Equivalent to text-4xl */
+  font-weight: 600;
+  line-height: 1.25; /* Adjusted for better spacing */
+  margin-bottom: 1rem; /* Added margin for spacing between title and description */
+}
+
+@media (min-width: 768px) {
+  .about-title {
+    font-size: 3rem; /* Equivalent to md:text-5xl */
+  }
+}
+
+.about-description {
+  color: #6b7280; /* Equivalent to text-gray-500 */
+  font-size: 1rem;
+  line-height: 1.75; /* Adjusted line height for better readability */
+  padding-top: 1rem; /* Equivalent to pt-4 */
+  max-width: 800px; /* Ensure text is readable on large screens */
+  margin: 0 auto; /* Center align the text */
+}
+
+@media (max-width: 768px) {
+  .about-description {
+    font-size: 1rem; /* Make text size slightly smaller on mobile */
+  }
+}
